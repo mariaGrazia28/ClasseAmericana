@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.example.test.TestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.204 s <<< FAILURE! - in com.example.test.TestApplicationTests
+contextLoads  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.example.test.services.StudenteService] for bean with name 'studenteService' defined in file [C:\Users\maryG\OneDrive\Desktop\MySql\test\target\classes\com\example\test\services\StudenteService.class]; nested exception is java.lang.ClassNotFoundException: com.example.test.services.StudenteService
+Caused by: java.lang.ClassNotFoundException: com.example.test.services.StudenteService
+

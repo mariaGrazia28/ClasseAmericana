@@ -1,0 +1,13 @@
+com\example\test\TestApplication.class
+com\example\test\restcontrollers\StudenteRestController.class
+com\example\test\repositories\StudenteRepository.class
+com\example\test\restcontrollers\DocenteRestController.class
+com\example\test\repositories\ClasseRepository.class
+com\example\test\services\ClasseService.class
+com\example\test\entities\Docente.class
+com\example\test\repositories\DocenteRepository.class
+com\example\test\services\StudenteService.class
+com\example\test\entities\Classe.class
+com\example\test\restcontrollers\ClasseRestController.class
+com\example\test\entities\Studente.class
+com\example\test\services\DocenteService.class
